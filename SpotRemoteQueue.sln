@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue", "SpotRemoteQueue\SpotRemoteQueue.csproj", "{FA0E655A-236E-40CB-9064-246927809B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.Service", "SpotRemoteQueue.Service\SpotRemoteQueue.Service.csproj", "{82C26234-BC08-4084-9F32-E61A0137337E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.Socket", "SpotRemoteQueue.Socket\SpotRemoteQueue.Socket.csproj", "{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.WebSocket", "SpotRemoteQueue.WebSocket\SpotRemoteQueue.WebSocket.csproj", "{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.LibSpotifyWrapper", "SpotRemoteQueue.LibSpotifyWrapper\SpotRemoteQueue.LibSpotifyWrapper.csproj", "{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.WebWrapper", "SpotRemoteQueue.WebWrapper\SpotRemoteQueue.WebWrapper.csproj", "{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spotify", "Spotify", "{0671BFAE-2947-47A1-A3B5-F3052CBE3221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{669C1C39-C6D2-415E-984E-969D5BB8DD9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sockets", "Sockets", "{CE829635-E502-42A8-AC9C-8215EA8AFF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotRemoteQueue.Spotify", "SpotRemoteQueue.Spotify\SpotRemoteQueue.Spotify.csproj", "{64234B7C-863E-462C-B6B6-2F3A6C900D3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0E655A-236E-40CB-9064-246927809B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0E655A-236E-40CB-9064-246927809B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0E655A-236E-40CB-9064-246927809B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0E655A-236E-40CB-9064-246927809B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C26234-BC08-4084-9F32-E61A0137337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C26234-BC08-4084-9F32-E61A0137337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C26234-BC08-4084-9F32-E61A0137337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C26234-BC08-4084-9F32-E61A0137337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64234B7C-863E-462C-B6B6-2F3A6C900D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64234B7C-863E-462C-B6B6-2F3A6C900D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64234B7C-863E-462C-B6B6-2F3A6C900D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64234B7C-863E-462C-B6B6-2F3A6C900D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0E655A-236E-40CB-9064-246927809B63} = {669C1C39-C6D2-415E-984E-969D5BB8DD9A}
+		{82C26234-BC08-4084-9F32-E61A0137337E} = {669C1C39-C6D2-415E-984E-969D5BB8DD9A}
+		{5FEC7A4D-6A90-4D05-AB81-2B3D6EB1D246} = {CE829635-E502-42A8-AC9C-8215EA8AFF34}
+		{21A6D0F6-4ED3-4255-B459-4E0FB62A67EB} = {CE829635-E502-42A8-AC9C-8215EA8AFF34}
+		{60FBBBCF-32AF-4282-A7CC-2EFAA97831A6} = {0671BFAE-2947-47A1-A3B5-F3052CBE3221}
+		{B91269A8-8D85-4EA0-8092-D0F39C6B1CEE} = {0671BFAE-2947-47A1-A3B5-F3052CBE3221}
+		{64234B7C-863E-462C-B6B6-2F3A6C900D3B} = {0671BFAE-2947-47A1-A3B5-F3052CBE3221}
+	EndGlobalSection
+EndGlobal
